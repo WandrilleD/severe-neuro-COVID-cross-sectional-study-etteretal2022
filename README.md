@@ -24,3 +24,11 @@ The associated data is available as supplementary material of the article.
 18. [18_top_PlasmaCSFprot_vs_SeverityIndex](18_top_PlasmaCSFprot_vs_SeverityIndex.html): Association between severity score and CSF and plasma mediators significantly differing across groups (see Fig5) Fig6A
 19. [19_LongCovid_predictors](19_LongCovid_predictors.html): association between CSF and plasma molecules and long-COVID. Fig8
 20. [20_CSF_plasma_ratio_heatmaps](20_CSF_plasma_ratio_heatmaps.html): heatmaps of CSF/plasma ratio. Fig S4
+
+
+## Dependencies
+
+Documents 1 to 16 correspond to python notebooks whose dependencies are detailed in the [etter_env.yml](etter_env.yml) file (which can be used to create an appropriate conda environment directly).
+
+Documents 17 to 20 correspond to R markdown notebooks.
+
