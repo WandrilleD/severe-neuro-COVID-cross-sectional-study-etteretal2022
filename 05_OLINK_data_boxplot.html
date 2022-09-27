@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>05_OLINK_data_boxplot</title>
+<title>05_CODEX_data_boxplot</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,8 +13082,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Boxplot-of-the-OLINK-data">Boxplot of the OLINK data<a class="anchor-link" href="#Boxplot-of-the-OLINK-data">&#182;</a></h1><p>The goal of this notebook is to test for significant different between subgroups (controls, I, II ,III) for each of the molecule in the cytokine panels measured from plasma and CSF samples.</p>
-<p>The results are represented in the form of boxplots, which appear in supplementary figure 4.</p>
+<h1 id="Boxplot-of-the-CODEX-data">Boxplot of the CODEX data<a class="anchor-link" href="#Boxplot-of-the-CODEX-data">&#182;</a></h1><p>The goal of this notebook is to test for significant different between subgroups (controls, I, II ,III) for each of the molecule in the cytokine panels measured from plasma and CSF samples.</p>
+<p>The results are represented in the form of boxplots, which appear in figure 5.</p>
 <h1 id="ToC-">ToC <a id="toc" /><a class="anchor-link" href="#ToC-">&#182;</a></h1><p><a href="#reading">1. reading data</a></p>
 <p><a href="#test">2. testing for difference between groups</a></p>
 <p><a href="#plot">3. creating the boxplots</a></p>
@@ -14248,8 +14248,8 @@ Name: contrast, dtype: int64</pre>
     <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span> <span class="n">molec</span> <span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">,</span>  <span class="n">y</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">pad</span><span class="o">=-</span><span class="mi">28</span><span class="p">,</span>
                  <span class="n">fontname</span> <span class="o">=</span> <span class="s1">&#39;Arial&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">title_size</span><span class="p">)</span>
     
-    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;SuppFig4/parts/&quot;</span><span class="o">+</span><span class="n">molec</span><span class="o">+</span><span class="s2">&quot;_marginalized_boxplot.pdf&quot;</span><span class="p">)</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;SuppFig4/parts/&quot;</span><span class="o">+</span><span class="n">molec</span><span class="o">+</span><span class="s2">&quot;_marginalized_boxplot.png&quot;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;fig5/parts/&quot;</span><span class="o">+</span><span class="n">molec</span><span class="o">+</span><span class="s2">&quot;_marginalized_boxplot.pdf&quot;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;fig5/parts/&quot;</span><span class="o">+</span><span class="n">molec</span><span class="o">+</span><span class="s2">&quot;_marginalized_boxplot.png&quot;</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
